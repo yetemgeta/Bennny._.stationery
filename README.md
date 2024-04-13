@@ -36,8 +36,8 @@ These acknowledgments highlight the collaborative efforts and support that have 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="img/img/Benny.png" alt="Logo" width="" height="">
+  <a href="https://github.com/yetemgeta/Bennny._.stationery">
+    <img src="Benny._.stationery/Benny._.stationery/img/img/Benny.png" alt="Logo" width="" height="">
   </a>
 
   <h3 align="center">BENNY STATIONERY</h3>
