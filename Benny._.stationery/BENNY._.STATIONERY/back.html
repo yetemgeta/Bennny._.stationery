@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BENNY Stationery</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style copy.css" rel="stylesheet">
+        <!-- <link href="css/generator.css" rel="stylesheet"> -->
+        <link href="css/scanner.css" rel="stylesheet">   
+        <link rel="shortcut icon" href="img/img/B.png" type="image/x-icon">
+        <style>
+            
+        </style>
+    </head>
+    <body> 
+        <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div><img src="img/img/B.png" alt=""></div> -->
+       </div>    
+        <div id="side-panel">
+            <div id="side-panel-content">
+                <h4 align="center" id="side-panel-scroll">Side Panel</h4>
+                <div>
+                    <div class="cal123">
+                        <div class="calendar">
+                            <div class="calendar-header">
+                                <button class="prev" onclick="prevMonth()">&#10094;</button>
+                                <!-- <h1><font color="white" size="20px">Calendar</font></h1> -->
+                                <h3 id="month-year"></h3>
+                                <button class="next" onclick="nextMonth()">&#10095;</button>
+                            </div>
+                            <div class="sunholder">
+                                <table class="Sun">
+                                    <thead>
+                                        <tr>
+                                            <th class="days" >Sun</th>
+                                            <th class="days" >Mon</th>
+                                            <th class="days" >Tue</th>
+                                            <th class="days" >Wed</th>
+                                            <th class="days" >Thu</th>
+                                            <th class="days" >Fri</th>
+                                            <th class="days" >Sat</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="calendar-body"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                    <h1 align="center">note</h1>
+                   <textarea name="Note" id="" cols="30" rows="5"></textarea>
+                </div>
+            <div><br>
+                <div class="scicontainer">
+                    <div class="scicalculator">
+                        <p class="scical">Calculator</p>
+                        <input class="input" type="text" id="result" placeholder="Enter Number" required>
+                        <table class="scitable">
+                            <tr>
+                                <td><button class="clear" onclick="clearResult()">AC</button></td>
+                                <td><button class="clear" onclick="deleteCharacter()">DE</button></td>
+                                <td><button class="benny" onclick="alert">BENNY</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('+')">+</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn1" onclick="appendCharacter('7')">7</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('8')">8</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('9')">9</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('-')">-</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn1" onclick="appendCharacter('4')">4</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('5')">5</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('6')">6</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('*')">x</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn1" onclick="appendCharacter('1')">1</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('2')">2</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('3')">3</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('/')">/</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn1" onclick="appendCharacter('.')">.</button></td>
+                                <td><button class="btn1" onclick="appendCharacter('0')">0</button></td>
+                                <td colspan="2"><button class="btn1" onclick="evaluateExpression()">=</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                 
+            </div>
+           
+        </div>
+
+        <div id="main-content">
+            <div class="container-fluid bg-light p-0">
+                <div class="row gx-0 d-none d-lg-flex">
+                    <div class="col-lg-7 px-5 text-start">
+                        <h5><font="comic sans ms"></font>Benny Stationery: Where your imagination can run wild.</h5>
+                    </div>
+                    <div class="col-lg-5 px-5 text-end">
+                    </div>
+                </div>
+        </div>
+         <div id="side-panel-toggle-container" onclick="toggleSidePanel()">
+            <button id="side-panel-toggle">&#8594;</button>
+            <span id="side-panel-toggle-text"></span>
+        </div>
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0" style="background-color: #fff; background-image: url(bg.png); background-size: cover;">
+                <a href="index.html" class="navbar-brandi d-flex align-items-center px-4 px-lg-5">
+                <img src="img/img/Benny3 (1).png" alt="logo">
+                </a>
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                            <div class="dropdown-menu fade-up m-0">
+                                <a href="404.html" class="dropdown-item">Who We Are</a>
+                                <a href="404.html" class="dropdown-item">Vision</a>
+                                <a href="404.html" class="dropdown-item">Leadership</a>
+                            </div>
+                        </div>
+                        <a href="404.html" class="nav-item nav-link">Products</a>
+                        <a href="404.html" class="nav-item nav-link">Services</a>
+                        <a href="404.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="back">
+                <header>
+                    <br>
+                    <label for="search">Search:</label>
+                    <input type="text" id="searchInput" onkeyup="searchItems()" placeholder="Search for items...">
+                </header>
+                <table id="inventory-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('item')">Item</th>
+                            <th onclick="sortTable('value')">Value</th>
+                            <th onclick="sortTable('quantity')">Quantity</th>
+                            <th>Total</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td id="total-cell"></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <button onclick="addRow()">Add Row</button>
+                <!-- <button onclick="undo()">Undo</button>
+                    <button onclick="redo()">Redo</button> -->
+                
+                <button onclick="saveData()">Save</button>
+                <button onclick="exportData()">Export</button>
+                <label for="file-input" class="custom-file-upload">Choose File</label>
+                <input type="file" id="file-input" onchange="importData(event)">
+                 <!-- <button id="toggleButtonToQr" onclick="toggleContent()">Toggle Content</button> -->
+
+                 
+           
+            </div>
+        </div>
+        
+   
+            <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Address</h4>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Around Sar Bet</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3">1</i>+251 912 34-56-78</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3">2</i>+251 987 65-43-21</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>bennystationery@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="404.html"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="404.html"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Services</h4>
+                            <a class="btn btn-link" href="404.html">about Us</a>
+                            <a class="btn btn-link" href="404.html">services</a>
+                            <a class="btn btn-link" href="404.html">who we are</a>
+                            <a class="btn btn-link" href="404.html">contact us</a>
+                            <a class="btn btn-link" href="404.html">leadership</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="#Home">Home</a>
+                            <a class="btn btn-link" href="#about">About Us</a>
+                            <a class="btn btn-link" href="#gallery">Gallery</a>
+                            <a class="btn btn-link" href="#whoWeAre">Who We Are</a>
+                            <a class="btn btn-link" href="#register">Register</a>
+                            <a class="btn btn-link" href="#contact-us">Contact us</a>
+                            <a class="btn btn-link" href="#employees">Employees</a>
+                            <a class="btn btn-link" href="#testimonial">Testimonial</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <a href="index.html" class="navbar-brandi d-flex align-items-center px-4 px-lg-5">
+                            <img src="img/img/B.png" height="350px" href="index.html">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#"></a>All Right Reserved.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/counterup/counterup.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="lib/isotope/isotope.pkgd.min.js"></script>
+            <script src="lib/lightbox/js/lightbox.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/main1.js"></script>
+            <script src="js/generator.js"></script>
+            <script src="js/scanner.js"></script>
+            <script src="js/instascan.min.js"></script>
+          
+            <script>
+                var currentDate = new Date();
+                
+                function renderCalendar() {
+                var monthYear = document.getElementById('month-year');
+                var calendarBody = document.getElementById('calendar-body');
+                
+                // Clear calendar
+                calendarBody.innerHTML = '';
+                
+                // Set month and year in header
+                var month = currentDate.getMonth();
+                var year = currentDate.getFullYear();
+                monthYear.textContent = getMonthName(month) + ' ' + year;
+                
+                // Get first day and last day of the month
+                var firstDay = new Date(year, month, 1).getDay();
+                var lastDay = new Date(year, month + 1, 0).getDate();
+                
+                var date = 1;
+                for (var i = 0; i < 6; i++) {
+                var row = document.createElement('tr');
+                
+                for (var j = 0; j < 7; j++) {
+                    if (i === 0 && j < firstDay) {
+                        var cell = document.createElement('td');
+                        row.appendChild(cell);
+                    } else if (date > lastDay) {
+                        break;
+                    } else {
+                        var cell = document.createElement('td');
+                        cell.textContent = date;
+                        row.appendChild(cell);
+                        date++;
+                    }
+                }
+                
+                calendarBody.appendChild(row);
+                
+                if (date > lastDay) {
+                    break;
+                }
+                }
+                }
+                
+                function prevMonth() {
+                currentDate.setMonth(currentDate.getMonth() - 1);
+                renderCalendar();
+                }
+                
+                function nextMonth() {
+                currentDate.setMonth(currentDate.getMonth() + 1);
+                renderCalendar();
+                }
+                
+                function getMonthName(month) {
+                var monthNames = [
+                'January', 'February', 'March',
+                'April', 'May', 'June', 'July',
+                'August', 'September', 'October',
+                'November', 'December'
+                ];
+                return monthNames[month];
+                }
+                
+                renderCalendar();
+                
+                // calculator //
+                // ........... //
+                
+                            function appendCharacter(character) {
+                        document.getElementById('result').value += character;
+                    }
+                    
+                    function clearResult() {
+                        document.getElementById('result').value = '';
+                    }
+                    
+                    function deleteCharacter() {
+                        var result = document.getElementById('result').value;
+                        document.getElementById('result').value = result.slice(0, -1);
+                    }
+                    
+                    function evaluateExpression() {
+                        var result = document.getElementById('result').value;
+                        document.getElementById('result').value = eval(result);
+                    }
+                
+                $('#side-panel').on('mousewheel', function (e) {
+                var delta = e.originalEvent.deltaY;
+                if (delta > 0) {
+                // Scrolling down
+                $(this).scrollTop($(this).scrollTop() + 100);
+                } else {
+                // Scrolling up
+                $(this).scrollTop($(this).scrollTop() - 100);
+                }
+                });                      
+            </script>
+    </body>
+</html>
