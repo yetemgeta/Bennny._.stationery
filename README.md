@@ -37,7 +37,7 @@ These acknowledgments highlight the collaborative efforts and support that have 
 
 <div align="center">
   <a href="https://github.com/yetemgeta/Bennny._.stationery">
-    <img src="Benny._.stationery/Benny._.stationery/img/img/Benny.png" alt="Logo" width="" height="">
+    <img src="Benny._.stationery/img/img/Benny.png" alt="Logo" width="" height="">
   </a>
 
   <h3 align="center">BENNY STATIONERY</h3>
