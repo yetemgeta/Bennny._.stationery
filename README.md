@@ -168,7 +168,7 @@ In our upcoming updates, we have planned the following enhancements:
 
 In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
 
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery.gif" alt="owlcarousel" />
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery0.gif" alt="owlcarousel" />
 <br><br>
 
 ### About us
@@ -192,20 +192,19 @@ When you scroll down a little bit, you will come across the `About Us` section. 
 
 ### Register
 
- After that we get the `Register` section we'll come back in advance later about this section.
+After the `Who We Are` section, you will encounter the enticing "Register" section. While we will discuss this section in more detail shortly
 
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Register.png" alt="Register" /><br><br>
 
 ### Contact us
 
-Through this section you can contact us.
-<br><br>
+Through the `Contact Us` section, you have the convenient option to get in touch with us directly. We value open communication and strive to provide prompt and helpful assistance to address any inquiries, concerns, or feedback you may have.<br><br>
  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\COntact_us.png" alt="Contact Us" />
  <br><br>
 
  ### Company Employees
 
- After the contact us section, you get the `company employees` interface.
+After the `Contact Us` section, you will find the `Company Employees` interface. This interface provides a convenient platform for accessing information about our dedicated team members and their respective roles within the company.
  <br><br>
 
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Company_employees.png" alt="Company Employees"/>
@@ -213,7 +212,9 @@ Through this section you can contact us.
 
   ### Testimonial(What Customers Say)
 
-  We say we are the best with proof. One of our proof is that the feedbacks from our beloved customers and you got that in out `What Customers Say` section. 
+We take great pride in being recognized as the best, and we back up that claim with tangible proof. One of the strongest pieces of evidence validating our excellence lies within the `What Customers Say` section of our website.
+
+In the `What Customers Say` section, you will find a compilation of genuine feedback and testimonials from our beloved customers. These testimonials serve as a testament to the exceptional experiences our customers have had with our products and services. 
   <br><br>
   
    <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\What_customers_say.png" alt="What Customers Say" />
@@ -236,3 +237,19 @@ Through this section you can contact us.
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Footer.png" alt="Footer" />
 
   ## Pages
+
+  Unfortunately, the only page available for the website is `404.html` file only. Other pages are gonna be added in the future updates. 
+
+  ### 404.html
+
+  This page is a temporary page. We use it to link with the other pages like about, contact and etc... 
+
+   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\404.png" alt="404" />
+
+   ### Back.html
+
+   This page is actually the back bone of the our project. Because it got great role for our company. You can access this page by entering the information needed in the `register` section and you'll be automatically redirected to the `back.html` page. that's how you can access it.
+
+  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\back.png" alt="back" />
+
+  This page contains A lot of things and also in the future we are gonna add too many features to this page. so if we start talking about the contents of this page, First we, of course, get the header part with a simple quote and the pages and also the logo and as yu can see on the image above you can notice that their is an arrow and a text that says open and that will gonna reveal the side panel.
