@@ -283,9 +283,9 @@ These buttons and functionalities contribute to the overall usability and versat
   The calculator tool provides a convenient way for users to perform calculations without the need for a separate application. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is user-friendly and provides a simple interface for quick and efficient calculations.
       </div> 
     </div> 
-    <div style="float: right; width: 50%;"> 
+    <!-- <div style="float: right; width: 50%;"> 
       <img align="right" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Sidepanel.png" alt="side panel"/> 
-    </div> 
+    </div>  -->
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
