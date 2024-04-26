@@ -1,5 +1,8 @@
 <a id="readme-top"></a>
 
+
+
+
 # BENNY STATIONERY
 
 <details>
@@ -63,20 +66,35 @@ This project was a collaborative effort by the members of the `BENNY` group. Ini
 
 ## Built with
 
-* <a href="https://en.wikipedia.org/wiki/html">HTML</a>
-* <a href="https://en.wikipedia.org/wiki/css">CSS</a>
-* <a href="https://en.wikipedia.org/wiki/JavaScript">JAVASCRIPT</a>
+
+* ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+* ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+<!-- <a href="https://en.wikipedia.org/wiki/html">HTML</a> -->
+
+
+<!-- <a href="https://en.wikipedia.org/wiki/css">CSS</a> -->
+
+* ![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
+<!-- <a href="https://en.wikipedia.org/wiki/JavaScript">JAVASCRIPT</a>> -->
 
 ### Frameworks, Libraries & Programs Used
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
 <ol>
-  <li><a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4.4.1</a></li>
+  <li>
+  <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4.4.1</a>
+  </li>
   <ul>
     <li>Bootstrap was used to assist with the responsiveness and styling of the website.
 </li>
   </ul>
   <li><a href="https://fonts.google.com/">Google Fonts</a></li>
   <ul>
-    <li>Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.</li>
+    <li>Google fonts were used to import the 'comic sans ms' font into the style.css file which is used on all pages throughout the project.</li>
   </ul>
   <li><a href="https://git-scm.com/">Git</a></li>
     <ul>
@@ -90,6 +108,10 @@ This project was a collaborative effort by the members of the `BENNY` group. Ini
     </ul>
 
 </ol>
+
+### Others
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,3 +140,99 @@ In our upcoming updates, we have planned the following enhancements:
   - Barcode Scanning: Integrate barcode scanning capabilities to simplify the process of adding or updating items in the inventory system.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## How To Use It
+
+<!-- > [!WARNING]  
+> We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page. -->
+
+
+
+<div class="warning">
+<style>
+    .warning {
+        border: 1px solid #f5c518;
+        background-color: #fff6d7;
+        color: black;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .warning:before {
+        content: "⚠️ NOTE";
+        display: inline-block;
+        margin-right: 5px;
+    }
+</style>
+    <p>We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page!</p>
+</div>
+
+In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
+
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery.gif" alt="owlcarousel" />
+<br><br>
+
+### About us
+
+When you scroll down a little bit, you will come across the `About Us` section. This section provides detailed information about our organization, its history, and its values. It serves as an introduction to who we are, what we stand for, and what sets us apart from others in our industry.<br><br>
+
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\About_us.png" alt="About us" />
+
+### Gallery
+
+ After the `About Us` section, you will be presented with the captivating `Gallery` section, showcasing a collection of sample images featuring our exceptional products. This visually appealing section is designed to provide you with a glimpse of the high-quality and diverse range of offerings we have available.<br><br>
+
+  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Gallery.png" alt="Gallery" /><br><br>
+
+### Who We Are
+
+  You might wonder who has the privilege of offering such magnificent products. To satisfy your curiosity, you can visit the `Who We Are` section, where you can delve deeper into our company's background, values, and the team behind our exceptional offerings. This section provides valuable insights into the people and the passion that drive our organization.
+<br><br>
+
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Who_we_are.png" alt="WhoWeAre" /><br><br>
+
+### Register
+
+ After that we get the `Register` section we'll come back in advance later about this section.
+
+  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Register.png" alt="Register" /><br><br>
+
+### Contact us
+
+Through this section you can contact us.
+<br><br>
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\COntact_us.png" alt="Contact Us" />
+ <br><br>
+
+ ### Company Employees
+
+ After the contact us section, you get the `company employees` interface.
+ <br><br>
+
+  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Company_employees.png" alt="Company Employees"/>
+  <br><br>
+
+  ### Testimonial(What Customers Say)
+
+  We say we are the best with proof. One of our proof is that the feedbacks from our beloved customers and you got that in out `What Customers Say` section. 
+  <br><br>
+  
+   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\What_customers_say.png" alt="What Customers Say" />
+
+
+  ### Additional 
+
+  Beside the sections in the home page that we mentioned above we got our. . . 
+  
+  ### Header
+
+  This is the part that we used to show our Address(place and phone number), our social medias, our LOGO, And <a href="#pages">Another pages</a>
+
+   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Header.png" alt="Header" />
+
+   ### Footer
+
+   On this section, you can get our address, services and quick links to take you to different section of the page.
+
+  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Footer.png" alt="Footer" />
+
+  ## Pages
