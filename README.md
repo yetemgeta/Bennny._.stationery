@@ -271,20 +271,18 @@ These buttons and functionalities contribute to the overall usability and versat
 
 ### side panel 
 
-<div> 
-    <div style="float: left; width: 50%;"> 
-      <div align="left"> On the side panel, users have access to three helpful tools: a calendar, a note-taking feature, and a calculator. These tools aim to enhance productivity and provide convenient utilities for users while they work.
-
-The calendar allows users to keep track of important dates, appointments, and events. It provides a visual representation of dates and can be customized to display daily, weekly, or monthly views. Users can add, edit, and delete events, set reminders, and efficiently manage their schedules.
-
-The note-taking feature enables users to jot down ideas, make to-do lists, or capture important information. It provides a digital space for users to create and organize their notes. Users can easily create new notes, edit existing ones, and categorize them for easy reference. This feature helps users stay organized and ensures important information is readily accessible.
-
-The calculator tool provides a convenient way for users to perform calculations without the need for a separate application. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is user-friendly and provides a simple interface for quick and efficient calculations.
-      </div> 
-    </div> 
-    <div style="float: right; width: 50%;"> 
+<div>
+   <div style="float: left; width: 50%;">
+      <div align="left"> 
+         On the side panel, users have access to three helpful tools: a calendar, a note-taking feature, and a calculator. These tools aim to enhance productivity and provide convenient utilities for users while they work.
+         The calendar allows users to keep track of important dates, appointments, and events. It provides a visual representation of dates and can be customized to display daily, weekly, or monthly views. Users can add, edit, and delete events, set reminders, and efficiently manage their schedules.
+         The note-taking feature enables users to jot down ideas, make to-do lists, or capture important information. It provides a digital space for users to create and organize their notes. Users can easily create new notes, edit existing ones, and categorize them for easy reference. This feature helps users stay organized and ensures important information is readily accessible.
+         The calculator tool provides a convenient way for users to perform calculations without the need for a separate application. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is user-friendly and provides a simple interface for quick and efficient calculations.
+      </div>
+   </div>
+   <div style="float: right; width: 50%;"> 
       <img align="right" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Sidepanel.png" alt="side panel"/> 
-    </div> 
+   </div>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
