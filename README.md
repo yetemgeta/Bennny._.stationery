@@ -14,7 +14,34 @@
       </ul>
     </li>
     <li><a href="#structure">Structure</a></li>
+    <li>
+      <a href="#How-To-Use-It-And-Content">How To Use It And Content</a>
+      <ul>
+        <li><a href="#About-us">About us</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Who-We-Are">Who We Are</a></li>
+        <li><a href="#Register">Register</a></li>
+        <li><a href="#Contact-us">Contact us</a></li>
+        <li><a href="#Company-Employees">Company Employees</a></li>
+        <li>
+        <a href="#Additional">Additional</a>
+        <ul>
+          <li><a href="#Header">Header</a></li>
+          <li><a href="#Footer">Footer</a></li>
+       </ul>
+      </li>        
+      </ul>
+    </li>
+    <li>
+      <a href="#Additional">Additional</a>
+      <ul>
+        <li><a href="#404.html">404.html</a></li>
+        <li><a href="#Back.html">Back.html</a></li>
+        <li><a href="#Side-panel">Side Panel</a></li>
+      </ul>
+    </li>
     <li><a href="#future-updates">Future Updates</a></li>
+
   </ol>
 </details>
 
@@ -123,22 +150,8 @@ This project was a collaborative effort by the members of the `BENNY` group. Ini
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Future Updates
 
-In our upcoming updates, we have planned the following enhancements:
-
-- Integration of Python: We are actively working on adding Python functionality to our website, allowing for expanded capabilities and features.
-
-- Improvements to `back.html`:
-  - Scanner Feature: We will be introducing a scanner feature that will enhance the analysis of HTML code.
-  - User Interface Enhancements: Our team is dedicated to refining the user interface of `back.html`, ensuring an improved and user-friendly experience.
-  - Sorting and Filtering: Enable sorting and filtering options to organize the inventory list based on attributes such as name, quantity, price, category, or availability.
-  - Add/Edit/Delete Items: We will continue to enhance the functionality for adding new items to the inventory, editing existing item details, and removing items that are no longer in stock.
-  - Barcode Scanning: Integrate barcode scanning capabilities to simplify the process of adding or updating items in the inventory system.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## How To Use It
+## How To Use It And Content 
 
 > [!WARNING]  
 > We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page.
@@ -147,6 +160,8 @@ In order to use our website, you should first open the `index.html` file. The fi
 
  <img align="" width="900" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery0.gif" alt="owlcarousel" />
 <br><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### About us
 
@@ -167,6 +182,8 @@ When you scroll down a little bit, you will come across the `About Us` section. 
 
  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Who_we_are.png" alt="WhoWeAre" /><br><br>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Register
 
 After the `Who We Are` section, you will encounter the enticing "Register" section. While we will discuss this section in more detail shortly
@@ -178,6 +195,8 @@ After the `Who We Are` section, you will encounter the enticing "Register" secti
 Through the `Contact Us` section, you have the convenient option to get in touch with us directly. We value open communication and strive to provide prompt and helpful assistance to address any inquiries, concerns, or feedback you may have.<br><br>
  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Contact_us.png" alt="Contact Us" />
  <br><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Company Employees
 
@@ -196,6 +215,7 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
   
    <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\What_customers_say.png" alt="What Customers Say" />
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
   ### Additional 
 
@@ -215,6 +235,8 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
 
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Footer.png" alt="Footer" />
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
   ## Pages
 
   Unfortunately, the current state of the website only offers a single page, the `404.html` file. This means that users may encounter difficulties accessing the content they are seeking. However, Me and my team want to assure you that we are actively working on expanding the website's offerings in future updates. 
@@ -224,6 +246,8 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
 This page currently serves as a temporary placeholder on our website. Its purpose is to act as a link or redirection point to other essential pages, such as the "About" page, the "Contact" page, and more. We understand that encountering a 404 error can be frustrating for users, as it typically indicates that the requested page is not found.
 
    <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\404.png" alt="404" />
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
    ### Back.html
 
@@ -243,6 +267,8 @@ Beneath the table, you'll find 4 buttons: "Add row," "Save," "Export," and "Choo
 
 These buttons and functionalities contribute to the overall usability and versatility of the inventory management system, making it easier for users to add, edit, save, and export data effortlessly.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### side panel 
 
 <div> 
@@ -260,3 +286,20 @@ The calculator tool provides a convenient way for users to perform calculations 
       <img align="right" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Sidepanel.png" alt="side panel"/> 
     </div> 
 </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Future Updates
+
+In our upcoming updates, we have planned the following enhancements:
+
+- Integration of Python: We are actively working on adding Python functionality to our website, allowing for expanded capabilities and features.
+
+- Improvements to `back.html`:
+  - Scanner Feature: We will be introducing a scanner feature that will enhance the analysis of HTML code.
+  - User Interface Enhancements: Our team is dedicated to refining the user interface of `back.html`, ensuring an improved and user-friendly experience.
+  - Sorting and Filtering: Enable sorting and filtering options to organize the inventory list based on attributes such as name, quantity, price, category, or availability.
+  - Add/Edit/Delete Items: We will continue to enhance the functionality for adding new items to the inventory, editing existing item details, and removing items that are no longer in stock.
+  - Barcode Scanning: Integrate barcode scanning capabilities to simplify the process of adding or updating items in the inventory system.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
