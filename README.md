@@ -1,7 +1,23 @@
 <a id="readme-top"></a>
 
 
-
+<style>
+  * {
+    font-family: comic sans ms;
+  }
+    .warning {
+        border: 1px solid #f5c518;
+        background-color: #fff6d7;
+        color: black;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .warning:before {
+        content: "⚠️ NOTE";
+        display: inline-block;
+        margin-right: 5px;
+    }
+</style>
 
 # BENNY STATIONERY
 
@@ -143,27 +159,13 @@ In our upcoming updates, we have planned the following enhancements:
 
 ## How To Use It
 
-<!-- > [!WARNING]  
-> We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page. -->
+> [!WARNING]  
+> We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page.
 
 
 
 <div class="warning">
-<style>
-    .warning {
-        border: 1px solid #f5c518;
-        background-color: #fff6d7;
-        color: black;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    .warning:before {
-        content: "⚠️ NOTE";
-        display: inline-block;
-        margin-right: 5px;
-    }
-</style>
-    <p>We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page!</p>
+    We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page!
 </div>
 
 In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
@@ -222,34 +224,64 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
 
   ### Additional 
 
-  Beside the sections in the home page that we mentioned above we got our. . . 
+ Beside the sections mentioned above, we have additional sections on our homepage that provides essential information and quick access to various resources. This sections typically are ... 
   
   ### Header
 
-  This is the part that we used to show our Address(place and phone number), our social medias, our LOGO, And <a href="#pages">Another pages</a>
+  <!-- This is the part that we used to show our Address(place and phone number), our social medias, our LOGO, And <a href="#pages">Another pages</a> -->
+
+  The header section is typically located at the top of the webpage and serves as a consistent element across all pages of your website. It often includes Logo, Address and Contact Information, Social Media Links,  and  <a href="#pages">Navigation Menu</a>
 
    <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Header.png" alt="Header" />
 
    ### Footer
 
-   On this section, you can get our address, services and quick links to take you to different section of the page.
+   The footer section is located at the bottom of the webpage and is also consistent across all pages of your website. It often includes Address and Contact Information, Quick Links, Services and our Logo.
 
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Footer.png" alt="Footer" />
 
   ## Pages
 
-  Unfortunately, the only page available for the website is `404.html` file only. Other pages are gonna be added in the future updates. 
+  Unfortunately, the current state of the website only offers a single page, the `404.html` file. This means that users may encounter difficulties accessing the content they are seeking. However, Me and my team want to assure you that we are actively working on expanding the website's offerings in future updates. 
 
   ### 404.html
 
-  This page is a temporary page. We use it to link with the other pages like about, contact and etc... 
+This page currently serves as a temporary placeholder on our website. Its purpose is to act as a link or redirection point to other essential pages, such as the "About" page, the "Contact" page, and more. We understand that encountering a 404 error can be frustrating for users, as it typically indicates that the requested page is not found.
 
    <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\404.png" alt="404" />
 
    ### Back.html
 
-   This page is actually the back bone of the our project. Because it got great role for our company. You can access this page by entering the information needed in the `register` section and you'll be automatically redirected to the `back.html` page. that's how you can access it.
+   This page serves as the backbone of our project, playing a crucial role in the success of our company. By entering the required information in the "register" section, you can easily access this page and experience its valuable features. Once you have completed the registration process, you will be automatically redirected to the "back.html" page, granting you seamless access to its contents and functionalities.
 
   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\back.png" alt="back" />
 
-  This page contains A lot of things and also in the future we are gonna add too many features to this page. so if we start talking about the contents of this page, First we, of course, get the header part with a simple quote and the pages and also the logo and as yu can see on the image above you can notice that their is an arrow and a text that says open and that will gonna reveal the side panel.
+This page boasts a plethora of diverse and valuable elements, and we have exciting plans to incorporate additional features in the future. Let's delve into the contents of this page, starting with the prominent header section. At the top, you will find an elegant header displaying a captivating quote, along with the various pages and a distinctive logo that represents our brand.
+
+In the image, you'll notice a striking arrow with the text "open." This visual cue invites users to discover more by revealing the side panel. Simply clicking or tapping the arrow triggers the graceful unfolding of the side panel, unveiling a plethora of additional functionalities and options.
+
+Below the side panel arrow, you'll find the navigation menu, which is also available on the home page. However, the main focus of the page is the table — an inventory management system created using HTML, CSS, and JavaScript. We have plans to incorporate Python to further enhance its features.
+
+In the image provided, you'll notice a search box positioned at the top of the table. This feature enables users to search for and access specific items within the table. The main interface of the table consists of five columns. The first column lists the items, while the second column displays their corresponding values. The third column represents the quantity of each item, and in the fourth column, you can find the total amount. The total amount is calculated by multiplying the quantity of an item by its value. The last column, known as the action column, allows users to delete specific items from the table.
+
+Beneath the table, you'll find 4 buttons: "Add row," "Save," "Export," and "Choose file." The "Add row" button enables users to add a new row for an item, expanding the table as needed. The "Save" button serves as a saving the table and calculating the total value based on the provided information. The "Export" button allows users to save the table as a CSV file, facilitating data sharing and backup. Lastly, the "Choose file" button enables users to import a CSV file into the table or workspace, providing a convenient way to import existing data.
+
+These buttons and functionalities contribute to the overall usability and versatility of the inventory management system, making it easier for users to add, edit, save, and export data effortlessly.
+
+### side panel 
+
+<div> 
+    <div style="float: left; width: 50%;"> 
+      <div align="left"> On the side panel, users have access to three helpful tools: a calendar, a note-taking feature, and a calculator. These tools aim to enhance productivity and provide convenient utilities for users while they work.
+
+The calendar allows users to keep track of important dates, appointments, and events. It provides a visual representation of dates and can be customized to display daily, weekly, or monthly views. Users can add, edit, and delete events, set reminders, and efficiently manage their schedules.
+
+The note-taking feature enables users to jot down ideas, make to-do lists, or capture important information. It provides a digital space for users to create and organize their notes. Users can easily create new notes, edit existing ones, and categorize them for easy reference. This feature helps users stay organized and ensures important information is readily accessible.
+
+The calculator tool provides a convenient way for users to perform calculations without the need for a separate application. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is user-friendly and provides a simple interface for quick and efficient calculations.
+      </div> 
+    </div> 
+    <div style="float: right; width: 50%;"> 
+      <img align="right" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Sidepanel.png" alt="side panel"/> 
+    </div> 
+</div>
