@@ -168,7 +168,7 @@ In our upcoming updates, we have planned the following enhancements:
 
 In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
 
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery0.gif" alt="owlcarousel" />
+ <img align="" width="900" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery0.gif" alt="owlcarousel" />
 <br><br>
 
 ### About us
