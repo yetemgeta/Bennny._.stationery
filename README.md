@@ -199,7 +199,7 @@ After the `Who We Are` section, you will encounter the enticing "Register" secti
 ### Contact us
 
 Through the `Contact Us` section, you have the convenient option to get in touch with us directly. We value open communication and strive to provide prompt and helpful assistance to address any inquiries, concerns, or feedback you may have.<br><br>
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\COntact_us.png" alt="Contact Us" />
+ <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Contact_us.png" alt="Contact Us" />
  <br><br>
 
  ### Company Employees
