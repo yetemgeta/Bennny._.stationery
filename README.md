@@ -1,24 +1,5 @@
 <a id="readme-top"></a>
 
-
-<style>
-  * {
-    font-family: comic sans ms;
-  }
-    .warning {
-        border: 1px solid #f5c518;
-        background-color: #fff6d7;
-        color: black;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    .warning:before {
-        content: "⚠️ NOTE";
-        display: inline-block;
-        margin-right: 5px;
-    }
-</style>
-
 # BENNY STATIONERY
 
 <details>
@@ -161,12 +142,6 @@ In our upcoming updates, we have planned the following enhancements:
 
 > [!WARNING]  
 > We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page.
-
-
-
-<div class="warning">
-    We use dummy text (also known as Lorem Ipsum) for the content of our website since it is a sample page!
-</div>
 
 In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
 
