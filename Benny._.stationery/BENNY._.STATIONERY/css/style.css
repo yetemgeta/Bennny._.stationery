@@ -646,7 +646,7 @@ button:hover {
 
 }
 
-/* Choose file button */
+/** Choose file button **/
 #file-input {
     display: none;
 }
@@ -676,7 +676,7 @@ button:hover {
 .visually-hidden {
     display: none;
 }
-/* side panel */
+/** side panel **/
 #main-content {
     transition: width 0.3s ease-in-out;
     padding: 20px;
@@ -694,10 +694,8 @@ button:hover {
     transition: right 0.3s ease-in-out;
     z-index: 1000;
     height:100%;
-    /* width:100%; */
     overflow-y:scroll;
     overflow-x:hidden;
-    /* padding-top:20px; */
 }
 
 #side-panel.open {
@@ -712,7 +710,7 @@ button:hover {
     width: 30px;
 }
 
-/* calendar */
+/** calendar **/
 
 .cal123 {
     width: 100%;
@@ -801,7 +799,7 @@ button:hover {
     width: 270px;
 }
 
-/* claculator */
+/** calculator **/
 
 .scicontainer {
     width: 100%;
@@ -931,10 +929,3 @@ opacity: 0.8;
     margin-top: 2px;
 
 }
-
-/* Qrcode */
-
-.scanner {
-display: none;
-}
-

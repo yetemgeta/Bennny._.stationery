@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    // Spinner
+    // Spinner //
     var spinner=function () {
         setTimeout(function () {
                 if ($('#spinner').length > 0) {
@@ -16,11 +16,11 @@
     spinner();
 
 
-    // Initiate the wowjs
+    // Initiate the wowjs //
     new WOW().init();
 
 
-    // Sticky Navbar
+    // Sticky Navbar //
     $(window).scroll(function () {
             if ($(this).scrollTop() > 300) {
                 $('.sticky-top').addClass('shadow-sm').css('top', '0px');
@@ -32,7 +32,7 @@
         });
 
 
-    // Back to top button
+    // Back to top button //
     $(window).scroll(function () {
             if ($(this).scrollTop() > 300) {
                 $('.back-to-top').fadeIn('slow');
@@ -53,14 +53,14 @@
     });
 
 
-// Facts counter
+// Facts counter //
 $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 2000
 });
 
 
-// Header carousel
+// Header carousel //
 $(".header-carousel").owlCarousel({
 autoplay: true,
 smartSpeed: 1500,
@@ -74,7 +74,7 @@ navText : [ '<i class="bi bi-chevron-left"></i>',
 });
 
 
-// Testimonials carousel
+// Testimonials carousel //
 $(".testimonial-carousel").owlCarousel({
 autoplay: true,
 smartSpeed: 1000,
@@ -99,7 +99,7 @@ responsive: {
 });
 
 
-// Portfolio isotope and filter
+// Portfolio isotope and filter //
 var portfolioIsotope=$('.portfolio-container').isotope({
 itemSelector: '.portfolio-item',
 layoutMode: 'fitRows'
@@ -116,11 +116,7 @@ $('#portfolio-flters li').on('click', function () {
 
 })(jQuery);
 
-// --------------------------------------------------- //
-// --------------------------------------------------- //
-// --------------------------------------------------- //
-// --------------------------------------------------- //
-
+// Back.html //
 
 var inventoryData=[];
 var undoStack=[];
@@ -444,9 +440,42 @@ return document.getElementById(id).value;
 
 ;
 
+// calculator //
+
+            function appendCharacter(character) {
+        document.getElementById('result').value += character;
+    }
+    
+    function clearResult() {
+        document.getElementById('result').value = '';
+    }
+    
+    function deleteCharacter() {
+        var result = document.getElementById('result').value;
+        document.getElementById('result').value = result.slice(0, -1);
+    }
+    
+    function evaluateExpression() {
+        var result = document.getElementById('result').value;
+        document.getElementById('result').value = eval(result);
+    }
+
+$('#side-panel').on('mousewheel', function (e) {
+var delta = e.originalEvent.deltaY;
+if (delta > 0) {
+// Scrolling down
+$(this).scrollTop($(this).scrollTop() + 100);
+} else {
+// Scrolling up
+$(this).scrollTop($(this).scrollTop() - 100);
+}
+});                      
+
 
 //------------------------------------------------//
 //------------------------------------------------//
 //------------------------------------------------//
 //------------------------------------------------//
 //------------------------------------------------//
+
+

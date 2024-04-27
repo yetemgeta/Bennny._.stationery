@@ -80,7 +80,7 @@ Benny Stationery: Where your imagination can run wild.    <br />
 ## About the project
 
 <br/>
-<img src="Benny._.stationery/BENNY._.STATIONERY/img/img/template.png" href="https://github.com/yetemgeta/Benny._.stationery"><br/><br/><br/>
+<img src="Benny._.stationery/BENNY._.STATIONERY/img/README/template.png" href="https://github.com/yetemgeta/Benny._.stationery"><br/><br/><br/>
 
 This project was a collaborative effort by the members of the `BENNY` group. Initially, we planned to utilize `HTML`, `CSS`, `Javascript`, and `Python`. However, we encountered significant difficulties when attempting to integrate `Python` with `HTML`. As a result, we proceeded with using only `HTML`, `CSS`, and `Javascript`.
 
