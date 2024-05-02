@@ -4,6 +4,8 @@
 
 ## [`Demo website`](https://bennystationerydemo.netlify.app/)
 
+> [!WARNING]  
+> Consider minimizing your webpage( `ctrl` + `-` on windows or `command ⌘` + `-` on mac) for a better experience.<br><br>
 <details>
   <summary>Table of Contents</summary>
   <ol>
