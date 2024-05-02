@@ -64,7 +64,7 @@ These acknowledgements highlight the collaborative efforts and support that have
 
 <div align="center">
   <a href="https://github.com/yetemgeta/Bennny._.stationery">
-    <img src="Benny._.stationery/BENNY._.STATIONERY/img/img/B.png" alt="Logo" width="" height="">
+    <img src="Benny._.stationery/img/img/B.png" alt="Logo" width="" height="">
   </a>
 
   <h3 align="center">BENNY STATIONERY</h3>
@@ -80,7 +80,7 @@ Benny Stationery: Where your imagination can run wild.    <br />
 ## About the project
 
 <br/>
-<img src="Benny._.stationery/BENNY._.STATIONERY/img/README/template.png" href="https://github.com/yetemgeta/Benny._.stationery"><br/><br/><br/>
+<img src="Benny._.stationery/img/README/template.png" href="https://github.com/yetemgeta/Benny._.stationery"><br/><br/><br/>
 
 This project was a collaborative effort by the members of the `BENNY` group. Initially, we planned to utilize `HTML`, `CSS`, `Javascript`, and `Python`. However, we encountered significant difficulties when attempting to integrate `Python` with `HTML`. As a result, we proceeded with using only `HTML`, `CSS`, and `Javascript`.
 
@@ -158,7 +158,7 @@ This project was a collaborative effort by the members of the `BENNY` group. Ini
 
 In order to use our website, you should first open the `index.html` file. The first thing you'll see, after the spinner of course, is the OwlCarousel section, which contains information about who we are, our vision and mission, and our facilities.
 
- <img align="" width="900" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Benny-stationery0.gif" alt="owlcarousel" />
+ <img align="" width="900" src="Benny._.stationery\img\README\Benny-stationery0.gif" alt="owlcarousel" />
 <br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,20 +167,20 @@ In order to use our website, you should first open the `index.html` file. The fi
 
 When you scroll down a little bit, you will come across the `About Us` section. This section provides detailed information about our organization, its history, and its values. It serves as an introduction to who we are, what we stand for, and what sets us apart from others in our industry.<br><br>
 
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\About_us.png" alt="About us" />
+ <img align="" width="" src="Benny._.stationery\img\README\About_us.png" alt="About us" />
 
 ### Gallery
 
  After the `About Us` section, you will be presented with the captivating `Gallery` section, showcasing a collection of sample images featuring our exceptional products. This visually appealing section is designed to provide you with a glimpse of the high-quality and diverse range of offerings we have available.<br><br>
 
-  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Gallery.png" alt="Gallery" /><br><br>
+  <img align="" width="" src="Benny._.stationery\img\README\Gallery.png" alt="Gallery" /><br><br>
 
 ### Who We Are
 
   You might wonder who has the privilege of offering such magnificent products. To satisfy your curiosity, you can visit the `Who We Are` section, where you can delve deeper into our company's background, values, and the team behind our exceptional offerings. This section provides valuable insights into the people and the passion that drive our organization.
 <br><br>
 
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Who_we_are.png" alt="WhoWeAre" /><br><br>
+ <img align="" width="" src="Benny._.stationery\img\README\Who_we_are.png" alt="WhoWeAre" /><br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,12 +188,12 @@ When you scroll down a little bit, you will come across the `About Us` section. 
 
 After the `Who We Are` section, you will encounter the enticing "Register" section. While we will discuss this section in more detail shortly
 
-  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Register.png" alt="Register" /><br><br>
+  <img align="" width="" src="Benny._.stationery\img\README\Register.png" alt="Register" /><br><br>
 
 ### Contact us
 
 Through the `Contact Us` section, you have the convenient option to get in touch with us directly. We value open communication and strive to provide prompt and helpful assistance to address any inquiries, concerns, or feedback you may have.<br><br>
- <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Contact_us.png" alt="Contact Us" />
+ <img align="" width="" src="Benny._.stationery\img\README\Contact_us.png" alt="Contact Us" />
  <br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,7 +203,7 @@ Through the `Contact Us` section, you have the convenient option to get in touch
 After the `Contact Us` section, you will find the `Company Employees` interface. This interface provides a convenient platform for accessing information about our dedicated team members and their respective roles within the company.
  <br><br>
 
-  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Company_employees.png" alt="Company Employees"/>
+  <img align="" width="" src="Benny._.stationery\img\README\Company_employees.png" alt="Company Employees"/>
   <br><br>
 
   ### Testimonial(What Customers Say)
@@ -213,7 +213,7 @@ We take great pride in being recognized as the best, and we back up that claim w
 In the `What Customers Say` section, you will find a compilation of genuine feedback and testimonials from our beloved customers. These testimonials serve as a testament to the exceptional experiences our customers have had with our products and services. 
   <br><br>
   
-   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\What_customers_say.png" alt="What Customers Say" />
+   <img align="" width="" src="Benny._.stationery\img\README\What_customers_say.png" alt="What Customers Say" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,13 +227,13 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
 
   The header section is typically located at the top of the webpage and serves as a consistent element across all pages of your website. It often includes Logo, Address and Contact Information, Social Media Links,  and  <a href="#pages">Navigation Menu</a>
 
-   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Header.png" alt="Header" />
+   <img align="" width="" src="Benny._.stationery\img\README\Header.png" alt="Header" />
 
    ### Footer
 
    The footer section is located at the bottom of the webpage and is also consistent across all pages of your website. It often includes Address and Contact Information, Quick Links, Services and our Logo.
 
-  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\Footer.png" alt="Footer" />
+  <img align="" width="" src="Benny._.stationery\img\README\Footer.png" alt="Footer" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +245,7 @@ In the `What Customers Say` section, you will find a compilation of genuine feed
 
 This page currently serves as a temporary placeholder on our website. Its purpose is to act as a link or redirection point to other essential pages, such as the "About" page, the "Contact" page, and more. We understand that encountering a 404 error can be frustrating for users, as it typically indicates that the requested page is not found.
 
-   <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\404.png" alt="404" />
+   <img align="" width="" src="Benny._.stationery\img\README\404.png" alt="404" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -253,7 +253,7 @@ This page currently serves as a temporary placeholder on our website. Its purpos
 
    This page serves as the backbone of our project, playing a crucial role in the success of our company. By entering the required information in the "register" section, you can easily access this page and experience its valuable features. Once you have completed the registration process, you will be automatically redirected to the "back.html" page, granting you seamless access to its contents and functionalities.
 
-  <img align="" width="" src="Benny._.stationery\BENNY._.STATIONERY\img\README\back.png" alt="back" />
+  <img align="" width="" src="BENNY._.STATIONERY\img\README\back.png" alt="back" />
 
 This page boasts a plethora of diverse and valuable elements, and we have exciting plans to incorporate additional features in the future. Let's delve into the contents of this page, starting with the prominent header section. At the top, you will find an elegant header displaying a captivating quote, along with the various pages and a distinctive logo that represents our brand.
 
