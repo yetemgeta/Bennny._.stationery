@@ -2,10 +2,11 @@
 
 # BENNY STATIONERY
 
-## [`Demo website`](https://bennystationerydemo.netlify.app/)
 
 > [!WARNING]  
-> Consider minimizing your webpage( `ctrl` + `-` on windows or `command ⌘` + `-` on mac) for a better experience.<br><br>
+> Consider minimizing The webpage( `ctrl` + `-` on windows or `command ⌘` + `-` on mac) while using our demo website for a better experience.
+> ## [`Demo website`](https://bennystationerydemo.netlify.app/)
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
